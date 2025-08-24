@@ -23,3 +23,43 @@ Make sure you have Python 3 installed. You can check your Python version by runn
 
 ```sh
 python --version
+
+Installation & Execution
+Clone the repository or download the hotelmenu.py file to your local machine:
+
+sh
+git clone <your-repository-url>
+Or simply save the hotelmenu.py file.
+
+Navigate to the project directory in your terminal:
+
+sh
+cd path/to/your/project
+Run the script:
+
+sh
+python hotelmenu.py
+The program will then start, display the menu, and prompt you for your order.
+
+💻 Usage Example
+Here is an example of a user interacting with the application:
+
+Code
+Welcome to our restaurant
+Burger: Rs20
+Pizza: Rs100
+Pasta: Rs50
+Salad: Rs70
+Fries: Rs60
+Drink: Rs40
+
+Enter your 1st item: Pizza
+your Pizza is added to your order
+Do you want to order another item? (yes/no): yes
+Enter your 2nd item: Drink
+your Drink is added to your order
+Do you want to order another item? (yes/no): no
+the total amount of items to pay is 140
+Thank you, visit again
+🛠️ Technologies Used
+Python: The core language used for the script.
