@@ -1,27 +1,43 @@
-Simple Restaurant Ordering System
-Description
-This is a basic command-line restaurant ordering system built with Python. It allows a user to select items from a predefined menu, calculates the total cost of the order, and displays the final bill. The script is designed to be a simple demonstration of fundamental Python concepts like dictionaries, user input, and conditional statements.
+Simple CLI Restaurant Ordering System
+A basic command-line restaurant ordering system built with Python. This project allows users to select items from a predefined menu and calculates the total cost of their order.
+
+Overview
+This script is a straightforward demonstration of fundamental Python concepts.It's designed for beginners to understand how to work with dictionaries, handle user input, and use conditional logic (if/else statements) to build a simple interactive application.
+
 Features
-Menu Display: Greets the user and displays a clear, easy-to-read menu with items and their corresponding prices.
-Order Taking: Prompts the user to enter up to four items sequentially.
-Dynamic Bill Calculation: Calculates the total bill in real-time as items are added to the order.
-Input Validation: Checks if the entered item is available on the menu and informs the user if it is not.
-User-Friendly Interaction: Provides clear prompts and feedback to the user throughout the ordering process.
-How to Run the Project
-To run this script, you need to have Python installed on your system.
-Clone or Download the Repository:
-Save the hotelmenu.py file to your local machine.
-Open a Terminal or Command Prompt:
-Navigate to the directory where you saved the hotelmenu.py file.
-Execute the Script:
-Run the following command in your terminal:
+Menu Display: Greets the user and clearly displays the available menu items and their prices.
+Sequential Ordering: Allows the user to order multiple items one after another.
+Input Validation: Checks if the ordered item exists in the menu and provides feedback to the user if it doesn't.
+Dynamic Bill Calculation: Keeps a running total of the order and displays the final amount to the user.
+
+Getting Started
+To run this project, you will need to have Python installed on your computer.
+
+Prerequisites
+Make sure you have Python 3 installed. You can check your Python version by running:
+
+code
+Sh
+python --version
+
+ Installation & Execution
+Clone the repository or download the hotelmenu.py file to your local machine.
+code
+Sh
+git clone <your-repository-url>
+Or simply save the hotelmenu.py file.
+
+Navigate to the project directory in your terminal.
+code
+Sh
+cd path/to/your/project
+Run the script.
 code
 Sh
 python hotelmenu.py
-Follow the On-Screen Prompts:
-The program will guide you through the ordering process. Simply type the name of the item you wish to order and press Enter.
-Example Usage
-Here is an example of what a user interaction with the script looks like:
+The program will then start, display the menu, and prompt you for your order.
+💻 Usage Example
+Here is an example of a user interacting with the application:
 code
 Code
 Welcome to our restaurant
@@ -35,11 +51,10 @@ Drink:Rs40
 Enter your 1st item:Pizza
 your Pizza is added to your order
 Do you want to order another item? (yes/no):yes
-Enter your 2nd item:Fries
-your Fries is added to your order
-Do you want to order another item? (yes/no):yes
-Enter your 3rd item:Drink
+Enter your 2nd item:Drink
 your Drink is added to your order
 Do you want to order another item? (yes/no):no
-the total amount of items to pay is 200
-Thank you,visit again```
+the total amount of items to pay is 140
+Thank you,visit again
+🛠️ Technologies Used
+Python: The core language used for the script.
